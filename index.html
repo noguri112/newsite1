@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Semi-Transparent Text on Black Background</title>
+<style>
+  body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .text-container {
+    background-color: rgba(255, 255, 255, 0.5); /* White with 50% opacity */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  h1 {
+    color: white;
+    margin: 0;
+    font-size: 36px;
+  }
+</style>
+</head>
+<body>
+  <div class="text-container">
+    <h1>Semi-Transparent Text Example</h1>
+    <p>This is an example of semi-transparent white text on a black background.</p>
+  </div>
+</body>
+</html>
